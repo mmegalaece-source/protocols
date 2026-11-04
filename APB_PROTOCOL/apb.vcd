@@ -1,0 +1,211 @@
+$date
+	Mon Sep  7 06:47:22 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module apb_tb $end
+$var wire 8 ! read_data [7:0] $end
+$var reg 8 " add [7:0] $end
+$var reg 1 # pclk $end
+$var reg 1 $ reset $end
+$var reg 1 % rw $end
+$var reg 1 & start $end
+$var reg 8 ' write_data [7:0] $end
+$scope module uut $end
+$var wire 8 ( add [7:0] $end
+$var wire 1 # pclk $end
+$var wire 1 ) pready $end
+$var wire 1 $ reset $end
+$var wire 1 % rw $end
+$var wire 1 & start $end
+$var wire 8 * write_data [7:0] $end
+$var wire 8 + read_data [7:0] $end
+$var wire 1 , pwrite $end
+$var wire 8 - pwdata [7:0] $end
+$var wire 1 . psel $end
+$var wire 8 / prdata [7:0] $end
+$var wire 1 0 pena $end
+$var wire 8 1 padd [7:0] $end
+$scope module master $end
+$var wire 8 2 add [7:0] $end
+$var wire 1 # pclk $end
+$var wire 1 ) pready $end
+$var wire 1 $ reset $end
+$var wire 1 % rw $end
+$var wire 1 & start $end
+$var wire 8 3 write_data [7:0] $end
+$var wire 8 4 prdata [7:0] $end
+$var parameter 2 5 ACCESS $end
+$var parameter 2 6 IDLE $end
+$var parameter 2 7 SETUP $end
+$var reg 2 8 next_state [1:0] $end
+$var reg 8 9 padd [7:0] $end
+$var reg 1 0 pena $end
+$var reg 1 . psel $end
+$var reg 8 : pwdata [7:0] $end
+$var reg 1 , pwrite $end
+$var reg 8 ; read_data [7:0] $end
+$var reg 2 < state [1:0] $end
+$upscope $end
+$scope module slave $end
+$var wire 8 = padd [7:0] $end
+$var wire 1 # pclk $end
+$var wire 1 0 pena $end
+$var wire 1 ) pready $end
+$var wire 1 . psel $end
+$var wire 8 > pwdata [7:0] $end
+$var wire 1 , pwrite $end
+$var wire 1 $ reset $end
+$var reg 8 ? prdata [7:0] $end
+$var integer 32 @ i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 7
+b0 6
+b10 5
+$end
+#0
+$dumpvars
+b100000000 @
+b0 ?
+b0 >
+b0 =
+b0 <
+b0 ;
+b0 :
+b0 9
+b0 8
+b0 4
+b0 3
+b0 2
+b0 1
+00
+b0 /
+0.
+b0 -
+0,
+b0 +
+b0 *
+1)
+b0 (
+b0 '
+0&
+0%
+0$
+0#
+b0 "
+b0 !
+$end
+#5
+b100000000 @
+1#
+#10
+0#
+1$
+#15
+1#
+#20
+b1 8
+1,
+b10101010 -
+b10101010 :
+b10101010 >
+b10000 1
+b10000 9
+b10000 =
+0#
+1&
+1%
+b10101010 '
+b10101010 *
+b10101010 3
+b10000 "
+b10000 (
+b10000 2
+#25
+1.
+b10 8
+b1 <
+1#
+#30
+0#
+0&
+#35
+10
+1.
+b0 8
+b10 <
+1#
+#40
+0#
+#45
+00
+0.
+b0 <
+1#
+#50
+0#
+#55
+1#
+#60
+0#
+#65
+1#
+#70
+b1 8
+0,
+0#
+1&
+0%
+#75
+1.
+b10 8
+b1 <
+1#
+#80
+0#
+0&
+#85
+b10101010 /
+b10101010 4
+b10101010 ?
+10
+1.
+b0 8
+b10 <
+1#
+#90
+0#
+#95
+b0 /
+b0 4
+b0 ?
+00
+0.
+b0 <
+b10101010 !
+b10101010 +
+b10101010 ;
+1#
+#100
+0#
+#105
+1#
+#110
+0#
+#115
+1#
+#120
+0#
+#125
+1#
+#130
+0#
